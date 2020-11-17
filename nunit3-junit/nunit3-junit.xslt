@@ -48,7 +48,8 @@
   </xsl:template>
 
   <xsl:template match="test-case/failure">
-    <failure message="{./message}">
+    <failure">
+      <xsl:value-of select="./message"/>
       <xsl:value-of select="./stack-trace"/>
     </failure>
   </xsl:template>
