@@ -9,7 +9,7 @@ A collection of contributed XSLT transforms for use with the NUnit result file, 
 
 ## What is the purpose / what has been solved by this fork?
 
-The reason for this fork is the requirement for a workaround for GitLab support in [nunit3-junit].
+The reason for this fork is the requirement for a workaround for GitLab support in [nunit3-junit](https://github.com/jochenwezel/nunit-transforms-to-junit-gitlab-compatible/tree/master/nunit3-junit).
 
 The GitLab UI doesn't show the test results with failure message if there is a failure stack trace, see https://gitlab.com/gitlab-org/gitlab-foss/-/issues/53668.
 
